@@ -60,8 +60,18 @@ public class Ball {
      * @param right  - the x value of the right side of the screen
      */
     public void bounceOffWalls(int top, int bottom, int right) {
-        throw new UnsupportedOperationException();
+        //check collision with top or bottom of screen
+        if(y < = top }} y + sz >= bottom){
+    reverseY();
+}
+    if( x _+ sz <= right){
+        reverseX();
     }
+}
+
+
+    
+//check collision with right side of screen 
 
     /**
      * Reverse's the ball's change in x value
@@ -89,7 +99,7 @@ public class Ball {
     /**
      * Set y value of the ball
      */
-    public void setY(int y) {
+    public void setY(int y){
         this.y = y;
     }
 
@@ -140,4 +150,5 @@ public class Ball {
     public int getSz() {
         return sz;
     }
+    
 }
