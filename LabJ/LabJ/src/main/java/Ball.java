@@ -59,9 +59,9 @@ public class Ball {
      * @param bottom - the y value of the bottom of the screen
      * @param right  - the x value of the right side of the screen
      */
-    public void bounceOffWalls(int top, int bottom, int right) {
+    public void bounceOffWalls(int top, int bottom, int right){ 
         //check collision with top or bottom of screen
-        if(y < = top }} y + sz >= bottom){
+        if(y < = top || y + sz >= bottom){
     reverseY();
 }
     if( x _+ sz <= right){
