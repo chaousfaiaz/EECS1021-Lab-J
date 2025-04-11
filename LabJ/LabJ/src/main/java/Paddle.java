@@ -42,7 +42,16 @@ public class Paddle {
      * @return true if collision with paddle is detected
      */
     public boolean checkForCollision(Ball b){
-        throw new UnsupportedOperationException(); //replace this line
+        int ballX = b.getX();
+        int ballY = b.getY();
+        int ballSize = b.getSz();
+        
+        //check if the ball is within the paddles boundaries
+        if(ballX + ballSize >= x && ballX <= x + PADDLE_WIDTH && ballY + ballSize >= y && ballY <= y + PADDLE_HEIGHT){
+            treturn true;
+        }
+        return false;
+           //replace this line
     }
 
     /**
