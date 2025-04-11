@@ -1,0 +1,25 @@
+public class Avg{
+  /** Fix the errors in this class **/
+public static void myAvg(double[] a){
+  int N = a.length;
+  double sum = a[0];
+  for(int i = 1; i<N; i++)
+    sum += a[i];
+  double avg = sum/N;
+  
+System.out.println("Average: " +avg);
+}
+  
+  publ;ic static void main(String[] arg){
+    /** Identify the line numbers of the different kinds of errors, **/
+
+  int lineNo1 = 7; // another compiler error at line 22, reason being that at line 3 the parameter is a string array, but t line 22 its double.
+  int lineNo2 = 8;, lineNo3 = 11;
+    // initialize the lineNo5 here
+  myAvg (new double [] {0.0, 0.1, 0.3, 0.4});
+    System.out.println("Compiler Error was at line" + lineNo1);
+    System.out.println("runtime Error was at line" + lineNo2);
+    System.out.println("Logic Error was at line" + lineNo3);
+  }
+  
+}
