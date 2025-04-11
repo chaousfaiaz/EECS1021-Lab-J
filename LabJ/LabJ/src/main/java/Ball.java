@@ -61,7 +61,7 @@ public class Ball {
      */
     public void bounceOffWalls(int top, int bottom, int right){ 
         //check collision with top or bottom of screen
-        if(y < = top || y + sz >= bottom){
+        if(y <= top || y + sz >= bottom){
     reverseY();
 }
     if( x + sz <= right){
