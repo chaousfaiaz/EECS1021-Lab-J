@@ -64,7 +64,7 @@ public class Ball {
         if(y < = top || y + sz >= bottom){
     reverseY();
 }
-    if( x _+ sz <= right){
+    if( x + sz <= right){
         reverseX();
     }
 }
