@@ -48,7 +48,7 @@ public class Paddle {
         
         //check if the ball is within the paddles boundaries
         if(ballX + ballSize >= x && ballX <= x + PADDLE_WIDTH && ballY + ballSize >= y && ballY <= y + PADDLE_HEIGHT){
-            treturn true;
+            return true;
         }
         return false;
            //replace this line
