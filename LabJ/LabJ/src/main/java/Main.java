@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 public class Main {
 
     //declare and initialize the frame
-    static String name = "YOUR NAME"; //PUT YOUR NAME HERE
+    static String name = "MD"; //PUT YOUR NAME HERE
     static JFrame f = new JFrame(name + "'S PONG");
 
     /**
